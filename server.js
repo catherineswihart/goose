@@ -2,10 +2,10 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const mongoose = require('mongoose');
-// const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 //requires the two models files
-// const Comment = require('./models/Comment.js');
-// const Article = require('./models/Article.js');
+const Comment = require('./models/Comment.js');
+const Article = require('./models/Article.js');
 //require the controllers
 const htmlRouter = require('./routes/html-routes.js');
 const articleRouter = require('./routes/article-routes.js');
